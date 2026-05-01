@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timbergreens Farm - Sustainable Forestry Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav-wrapper">
+            <div class="logo-section">
+              <img src="Logo.jpeg" alt="Timbergreens Farm Logo" class="logo" />
+              <span class="company-name">Timbergreens</span>
+            </div>
+            <ul class="nav-menu">
+              <li><a href="about.html" class="nav-link">About Us</a></li>
+              <li><a href="#services" class="nav-link">Our Approach</a></li>
+              <li><a href="#gallery" class="nav-link">Gallery</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <img
+        src="images/Hero Img.jpg"
+        alt="Timbergreens Forest"
+        class="hero-bg-image"
+      />
+      <div class="hero-bg-overlay"></div>
+
+      <div class="hero-inner">
+        <!-- LEFT: Display text -->
+        <div class="hero-left">
+          <div class="hero-eyebrow">/ Sustainable Forestry /</div>
+          <h1 class="hero-display">
+            THE<br />
+            PERFECT<br />
+            <span class="hero-display-accent">FOREST</span
+            ><sup class="hero-reg">®</sup>
+          </h1>
+          <p class="hero-tagline">/ We grow smarter forests /</p>
+          <a href="#contact" class="hero-cta" id="heroCta">EXPLORE</a>
+        </div>
+
+        <!-- RIGHT: Floating info card -->
+        <div class="hero-right">
+          <div class="hero-card" id="heroCard">
+            <div class="hero-card-tags">
+              <span class="hero-tag">Forestry</span>
+              <span class="hero-tag">Ecology</span>
+              <span class="hero-tag hero-tag--dark">FSC</span>
+            </div>
+            <h2 class="hero-card-title">
+              Unique approach &amp;<br />full-vigor growth
+            </h2>
+            <p class="hero-card-sub">From assessments to harvests.</p>
+            <div class="hero-card-media">
+              <a
+                href="#gallery"
+                class="hero-play-btn"
+                id="heroPlayBtn"
+                aria-label="View gallery"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </a>
+              <div class="hero-card-badge">GALLERY</div>
+              <img
+                src="images/photo 1.jpeg"
+                alt="Timbergreens forest preview"
+                class="hero-card-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM bar -->
+      <div class="hero-bottom">
+        <div class="hero-bottom-left">
+          <div class="hero-bottom-card">
+            <p class="hero-bottom-label">We use certified practices!</p>
+            <p class="hero-bottom-sub">
+              FSC &amp; SmartWood verified operations.
+            </p>
+          </div>
+        </div>
+        <div class="hero-bottom-right">
+          <div class="hero-avatars">
+            <div class="hero-avatar" style="background: #6b8e23">M</div>
+            <div class="hero-avatar" style="background: #d4a373">T</div>
+          </div>
+          <div class="hero-stat-block">
+            <span class="hero-stat-num">20<em>yr+</em></span>
+            <span class="hero-stat-label">Growth horizon</span>
+          </div>
+          <div class="hero-nature-tagline">
+            <p>WE CAN COMBINE<br />NATURE &amp; FOREST<br />PROSPERITY</p>
+            <a href="about.html" class="hero-learn-more">LEARN MORE ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- Intro Statement -->
+    <section class="about-intro">
+      <div class="container">
+        <div class="intro-grid">
+          <div class="intro-text">
+            <div class="section-header section-header--left">
+              <h2>Who We Are</h2>
+              <div class="divider divider--left"></div>
+            </div>
+            <p>
+              Timbergreens Farm, operated by
+              <strong>Marcus Leandro Rodrigo</strong> in Downey, California,
+              represents a commitment to sustainable forestry practices. Our
+              carefully managed approach focuses on maximizing the growth and
+              health of forests through responsible harvesting.
+            </p>
+            <p>
+              We operate on a selective harvesting model — essentially "skimming
+              the cream" by removing only trees that are dead, dying, or
+              crowding others. This methodology ensures that our forests remain
+              healthy, productive, and vibrant for generations to come.
+            </p>
+            <p>
+              Timbergreen was the
+              <strong>first forestry consulting firm in the Lake States</strong>
+              to pass the FSC standard and attain SmartWood certification — a
+              milestone that reflects our enduring dedication to environmental
+              stewardship.
+            </p>
+          </div>
+          <div class="intro-stats">
+            <div class="stat-card">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Years of Experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">80%</span>
+              <span class="stat-label"
+                >Underutilised Forest Potential Unlocked</span
+              >
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">FSC</span>
+              <span class="stat-label">Certified — First in Lake States</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">20yr</span>
+              <span class="stat-label">Growth Doubling Horizon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Timbergreens</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text"> -->
+    <!-- <p>
+              Timbergreens Farm, operated by Marcus Leandro Rodrigo in Downey,
+              California, represents a commitment to sustainable forestry
+              practices. Our carefully managed approach focuses on maximizing
+              the growth and health of forests through responsible harvesting.
+              Timbergreen Forestry – Spring Green, WI 53588 …creating a smarter
+              kind of forest owner…. Opportunities for Cooperative Management:
+              Washington Island, Wisconsin The Sustainable Forestry Cooperative
+              movement has caught the attention of many residents of Washington
+              Island. Timbergreen has been involved in several forest owner
+              meetings, a low-impact logging demonstration field day, and has
+              installed flooring in two homes on the Island, showing the final
+              product available from cooperative management. Many ideas have
+              been discussed and interest appears high to explore the options
+              for starting a forestry cooperative. Here is a summary of some of
+              the ideas that have been discussed over the past two months:
+              Washington Island covers an area of about 20,000 acres with
+              approximately 8,000 acres of that being forest. A significant
+              portion of the forest (30-40%) is growing on small woodlots that
+              contain homes. (The Door County information office will be
+              providing Timbergreen with digital GIS data, allowing us to make a
+              much more accurate estimation of this area) Residents describe
+              forest management on the Island as involving occasional harvesting
+              of large trees by Algoma Lumber Co. as well as some logging for
+              personal use by several forest owners. There are several small
+              sawmills on the Island, all are part time operations. Indications
+              are that the forest resource is about 80% underutilized
+              (Timbergreen’s estimate). The 1996 USFS inventory of Wisconsin’s
+              timber resource offers the following information for Door County:
+              Average stocking Annual Growth Species Mix 3,400 board feet per
+              acre 105 board feet sawlogs 2/10ths cord sawbolts and pulp (Logs
+              smaller than 10” diameter on the small end) 28% Cedar, 28%
+              Aspen-Birch, 44% Maple-Beech Our observations are that the Island
+              appears to fit this county average closely. Averages are just
+              that, the average. We observed many woodlots with much higher
+              volumes and great potential for forest management, while others
+              were in very poor condition due to over-harvesting of just the
+              good trees. Once we receive the GIS data, we can fine tune the
+              acreage estimates and the species mix information. Timbergreen’s
+              Full Vigor Forestry system works to build a fully stocked forest
+              of high quality large trees, then harvests just the natural annual
+              production of the forest to keep the best trees growing with good
+              vigor. Using FVF principles, the annual growth of the forest could
+              be doubled within 20 years. Each selective harvest would be better
+              and better quality as time goes forward. Value-added processing of
+              harvested timber could create a major new industry on the Island.
+              In N. Europe where forest owner cooperatives have been successful
+              for over 50 years, 60% of the forest owners have become members.
+              In Finland, nearly all forest owners now belong to a cooperative.
+              We estimate that within 5 years, a cooperative on the Island would
+              attract about 60% of the woodlot owners.
+            </p>
+            <p>
+              We operate on a selective harvesting model—essentially "skimming
+              the cream" by removing only trees that are dead, dying, or
+              crowding others. This methodology ensures that our forests remain
+              healthy, productive, and vibrant for generations to come.
+              Timbergreen Forestry – Spring Green, WI 53588 …creating a smarter
+              kind of forest owner…. Resources Available: Assuming 60% of the
+              landowners would participate, that would total about 5,000 acres
+              of forest. Our first restoration harvest usually removes about
+              1,000 board feet per acre of the worst timber. This could produce
+              about 1,000,000 bf per year, for 5 years, just to begin the
+              management process. By 2006, the annual growth on these lands
+              would exceed 1,000,000 bf if the sawbolts (logs 6-10” diameter)
+              are utilized. It seems appropriate to consider this production
+              goal to be able to reach a large percentage of forest owners and
+              have sufficient volume of wood to make the operation very
+              efficient. Forest Management Planning: The Forest Stewardship
+              Council is a global third party certification organization that
+              offers the ‘state of the art’ guidance for Sustainable Forest
+              Management. Timbergreen was the first forestry consulting firm in
+              the Lake States to pass the FSC standard and attain SmartWood
+              certification. FSC stresses that forest management must consider
+              the community benefits, environmental protection & restoration, as
+              well as the economic returns of all operations. We would recommend
+              starting the planning process with discussions involving the
+              Island residents to get their thoughts on what they would like the
+              Island to look like in 100 years. Issues that were voiced
+              included; deer herd management, maintaining open space in natural
+              condition, controlling further development to keep things from
+              changing, and maintaining water quality. Once the “desired future
+              condition” is chosen, a step by step process can be developed to
+              attain that goal. We work with the forest owner to help them
+              develop a management program for their land that they understand
+              and believe in. Potential Products: Hardwood flooring and kiln dry
+              lumber have been the best products here at Timbergreen for 12
+              years. We specialize in rustic – character flooring that can be
+              made from our worst first harvests. (See the article ‘The
+              Timbergreen Trials’) The beech, maple, oak, birch, and ash present
+              on Washington Island are all very valuable as flooring. Better
+              quality boards would be more valuable as millwork, furniture, or
+              simply dry lumber. The cedar has many different uses from siding,
+              decking, outdoor furniture, indoor paneling, and lumber. Naturally
+              rot resistant wood is in high demand from environmentally
+              conscious consumers today. There are an unlimited number of wood
+              products that could be made from the forest here. The more
+              manufacturing done, the higher the profits. Selling direct to
+              consumers gives maximum returns. Marketing could be targeted first
+              at construction projects on the Island where large volumes of
+              lumber are used for flooring, cabinets, furniture, etc. Other wood
+              using business could be contacted. Products could be made
+              specifically for the visitors that come over on the ferries.
+              Excess wood could be marketed as kiln dry lumber or flooring and
+              sold off Island through the coop system or over the Internet.
+              Maple and cedar are in high demand in the Milwaukee, Madison, and
+              Chicago area. FSC certification would be a useful marketing aid
+              for the coop’s wood.
+            </p> -->
+    <!-- <div class="quick-facts">
+              <div class="fact-item">
+                <h3>Our Philosophy</h3>
+                <p>
+                  Balance extraction with forest regeneration Timbergreen
+                  Forestry – Spring Green, WI 53588 3 …creating a smarter kind
+                  of forest owner…. The ultimate product would be to build log
+                  cabins, complete with railings, stairs, flooring, cabinets,
+                  furniture, decks, etc. Island contractors could work with the
+                  coop to use much of the annual harvest in a final form.
+                  Economic Impacts: Based on 12 years of selling value-added
+                  wood products across the continent, Timbergreen can project
+                  the value of the annual harvest – if selling direct to
+                  consumers is chosen as the marketing goal. 1,000,000 bf total
+                  harvest volume: Cedar – 280,000 bf Sell half as air dry lumber
+                  for decking, siding @ $1/bf Sell half as manufactured paneling
+                  $140,000 @ $2/bf $280,000 Hardwoods – 720,000 bf Sell 10% as
+                  rough lumber Sell 45% as flooring Sell 45% as kd lumber
+                  Estimated annual sales @$.75/bf @$3/bf @ $2.5/bf $54,000
+                  $972,000 $810,000 $2,256,000 These figures could go much
+                  higher if the coop installs the flooring, or more wood is
+                  manufactured into final form products. It would be possible to
+                  exceed $5,000,000 per year gross sales with creative
+                  processing and marketing. It would take a major effort to
+                  create the facility to process this wood, but the payoff is
+                  very quick. This size business would create at least 10 full
+                  time jobs within 3 years. The unique location, cool weather,
+                  stable soils, and timber types make this an ideal summer
+                  ‘logging camp’. (Here at Timbergreen, our Forest Owner Field
+                  Days are very popular, and we actually get a lot of work done
+                  while demonstrating our methods. Visitors pay a fee to cover
+                  the expenses, so the work accomplished is an added benefit.)
+                  Energy Production: Island residents have described previous
+                  efforts to burn waste to generate power. Insufficient volume
+                  was available to support an efficient operation.
+                </p>
+              </div>
+              <div class="fact-item">
+                <h3>Our Goal</h3>
+                <p>
+                  Maximize forest health and natural growth Value-added
+                  Facilities: Several buildings would be needed to operate
+                  efficiently. Our suggestion would be: 1. Sawmill building –
+                  30’X60’ insulated pole building. This would house a WoodMizer
+                  type band sawmill, a band resaw, an edger saw, a chop saw, a
+                  dust collection system, and material handling rollers. One
+                  heavy-duty forklift would be needed for this operation. 2.
+                  Kilns Three Super Solar Cycle Kilns – 450,000 bf annual
+                  capacity total. Three wood heated kilns 360,000 bf annual
+                  capacity total. 3. Drying and storage building – 30’X60’
+                  insulated pole building. This would house the air dry lumber
+                  and the finished products waiting to be sold. A forklift would
+                  be needed for this operation also. 4.
+                  Warehouse-workshop-outlet store-office – 60’X100’ insulated
+                  pole building. This would house a surface planer, rip saw,
+                  chop saw, and molder. 4. Island workshops and stores A series
+                  of smaller shops around the Island could be involved also.
+                  Harvesting Equipment: Several low impact logging machines
+                  would be needed. The small end could be 4X4 or 6X6 ATVs with a
+                  skidding arch. Horse logging would work very well on the
+                  Island. A skidding machine with radio-controlled winch is
+                  another important machine. A small and a large forwarding
+                  trailer or a pre-hauler would move logs to the roadside.
+                  Flatbed trailers or a log truck would move the logs to the
+                  mill. Wood waste from manufacturing and forestry operations
+                  could be used to supplement burnable waste to make the Island
+                  more self sufficient. Technology is improving quickly,
+                  providing better efficiency and less pollution than just a few
+                  years ago. Cooperative Showcase: Washington Island is a unique
+                  opportunity for a community forestry cooperative to thrive. An
+                  underutilized forest resource could provide the economic means
+                  to strengthen the future of the Island economy through working
+                  together for many benefits.
+                </p>
+              </div>
+              <div class="fact-item">
+                <h3>Our Practice</h3>
+                <p>
+                  Selective removal of dead, dying, and crowded trees Natural
+                  Neighborhood Management: The high number of small woodlots
+                  containing a home has spurred thought on a cooperative method
+                  of management in areas with many neighbors. Please refer to
+                  the ‘Natural Neighborhood Management’ article for details on
+                  processing logs through the coop when a yard or woodlot tree
+                  must be salvaged. Non-Timber Forest Products: Other forestry
+                  coops are also producing a variety of mushrooms,
+                  herbal-medicinal plants, maple syrup, etc to supplement the
+                  timber production and involve people of varied interests. The
+                  rich soils in the Island forests would be suitable for many
+                  alternative crops. Education and Training: One topic that
+                  comes up over and over in the discussions is resource
+                  management education. A wide range of ideas from a school
+                  forest, a demonstration forest for visitors, a forestry
+                  conference center, to a logger training program has been
+                  aired. A cooperative can use some of the value-added profits
+                  to support programs of their choice. First priority seems to
+                  be in serving the needs of the students in the school system.
+                  Many projects could be done throughout the school year, in the
+                  field, classroom or workshop. Several teachers are already
+                  involved in the discussions and offer encouragement to support
+                  an educational outreach in the school. This Island is a
+                  perfect place to have a demonstration/training center. There
+                  is a huge demand for practical, common sense forestry and low
+                  impact logging information. Hundreds and perhaps thousands of
+                  visitors could be drawn to the Island to ‘see in action’ the
+                  forestry projects of this cooperative. Horse skidding would be
+                  an attraction that would be extremely popular.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Services / Approach Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Forestry Approach</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <span>🌲</span>
+            </div>
+            <h3>Selective Harvesting</h3>
+            <p>
+              We carefully select and harvest only trees that are dead, dying,
+              or inhibiting the growth of healthier specimens, ensuring forest
+              vitality.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <span>🌱</span>
+            </div>
+            <h3>Forest Health Management</h3>
+            <p>
+              Our practices promote the natural growth and regeneration of
+              forests, maintaining biodiversity and ecological balance.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <span>♻️</span>
+            </div>
+            <h3>Sustainable Operations</h3>
+            <p>
+              We prioritize sustainable practices that ensure our forests thrive
+              while providing responsible resource extraction.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <span>🔍</span>
+            </div>
+            <h3>Expert Assessment</h3>
+            <p>
+              Our team conducts thorough forest assessments to identify optimal
+              harvesting opportunities while maintaining ecosystem health.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Forests</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/photo 1.jpeg" alt="Forest landscape 1" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo 2.jpeg" alt="Forest landscape 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo 3.jpeg" alt="Forest landscape 3" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo 4.jpeg" alt="Forest landscape 4" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo 5.jpeg" alt="Forest landscape 5" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/photo 6.jpeg" alt="Forest landscape 6" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-item">
+              <h3>Location</h3>
+              <p>8212 Cole St<br />Downey, California 90242</p>
+            </div>
+            <div class="info-item">
+              <h3>Phone</h3>
+              <p>
+                <a href="tel:+1 (910) 859-6162">+1 (910) 859-6162</a> |
+                <a href="tel:+1 (812) 686-2996">+1 (812) 686-2996</a>
+              </p>
+            </div>
+            <div class="info-item">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:marcusrodrigo1960@gmail.com"
+                  >marcusrodrigo1960@gmail.com</a
+                >
+              </p>
+            </div>
+            <div class="info-item">
+              <h3>Operator</h3>
+              <p>Marcus Leandro Rodrigo</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Timbergreens Farm</h4>
+            <p>
+              Committed to sustainable forestry practices and forest health
+              management.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#services">Our Approach</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>
+              Phone: <a href="tel:+19108596162">+1 (910) 859-6162</a> |
+              <a href="tel:+18126862996">+1 (812) 686-2996</a>
+            </p>
+            <p>
+              Email:
+              <a href="mailto:marcusrodrigo1960@gmail.com"
+                >marcusrodrigo1960@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Timbergreens Farm. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
